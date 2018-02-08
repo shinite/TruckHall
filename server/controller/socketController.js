@@ -4,12 +4,12 @@ module.exports = (io) =>{
 
   //firebase configurations, replace these with original configurations
   const config = {
-     apiKey: "...._uPA",
-     authDomain: "....firebaseapp.com",
-     databaseURL: "....firebaseio.com",
-     projectId: "....d",
-     storageBucket: "....com",
-     messagingSenderId: "....03"
+     apiKey: "FIREBASE_API_KEY",
+     authDomain: "FIREBASE_AUTH_DOMAIN",
+     databaseURL: "FIREBASE_DATABASE_URL",
+     projectId: "FIREBASE_PROJECT_ID",
+     storageBucket: "FIREBASE_STORAGE_BUCKET",
+     messagingSenderId: "FIREBASE_MESSAGING_SENDER_ID"
    };
   firebase.initializeApp(config);
 
