@@ -1,0 +1,15 @@
+.matches{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap:wrap;
+
+}
+
+.match  {
+ //background-color:red;
+ border: 1px solid #cacccd;
+ margin: $s-size $s-size;
+ padding: $m-size $m-size;
+
+}
