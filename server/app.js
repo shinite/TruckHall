@@ -11,7 +11,6 @@ const io = require('socket.io').listen(server);
 
 socketController(io);
 
-
 const publicPath = path.join(__dirname,'..', 'public')
   app.use(express.static(publicPath))
   app.get('*',(req,res)=>{

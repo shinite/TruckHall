@@ -3,24 +3,23 @@ import socketIOClient from "socket.io-client";
 import Matches from './Matches';
 import Header  from './Header'
 
-//Dashboard Component to display different matches that are live.
-
+//Component to display different matches that are live.
 const Dashboard =(props) => {
-  const match = props.matches.map((match,index)=>
-    (
+
+  const match = props.matches.map((match,index)=>(
     <div>
       <Matches key={index} match={match}/>
     </div>
    ));
+
   return (
     <div>
-    <Header/>
-    <div className="matches">
-      {match}
+      <Header/>
+      <div className="matches">
+        {match}
+      </div>
     </div>
-    </div>
-  )
-}
+  )}
 
 //matches is a list of live matches
 Dashboard.defaultProps={

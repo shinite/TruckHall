@@ -6,8 +6,8 @@ const Header = () => (
       <div className="header__content">
         <h1 className="heade__title" >Truck Hall</h1>
       </div>
-    </div>
-</header>
+    </div>  
+  </header>
 );
 
 export default Header ;

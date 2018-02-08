@@ -1,6 +1,5 @@
 const firebase = require('firebase');
 
-
 module.exports = (io) =>{
 
   //firebase configurations, replace these with original configurations
